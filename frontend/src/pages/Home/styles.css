@@ -1,0 +1,83 @@
+.section-1 {
+    width: 100%;
+    height: 88vh;
+    background-image: linear-gradient(to right, #1c83f6, #0F23DA);
+    opacity: 90%;
+}
+
+.section-1 .container {
+    max-width: 1264px;
+    margin: 0 auto;
+}
+
+.section-1 .container .header {
+    height: 16vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+}
+
+.section-1 .container .header h2 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.section-1 .container .header nav button {
+    width: 192px;
+    height: 48px;
+    border-radius: 32px;
+    border: 0;
+    font-weight: bold;
+    outline: 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+.section-1 .container .header nav button:nth-child(1) {
+    background-color: transparent;
+    border: 2px solid #fff !important;
+    margin-right: 8px;
+}
+
+.section-1 .container .header nav button:nth-child(2) {
+    background-color: rgba(89, 254, 155, 0.9);
+}
+
+.section-1 .container main {
+    display: flex;
+    height: 72vh;
+}
+
+.section-1 .container main section {
+    width: 50%;
+}
+
+.section-1 .container main section:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 21vh 0 0 32px;
+}
+
+.section-1 .container main section:nth-child(1) h1 {
+    font-size: 56px;
+    line-height: 56px;
+    color: #fff;
+}
+
+.section-1 .container main section:nth-child(1) img { 
+    margin-top: 24px;
+}
+
+.section-1 .container main section:nth-child(1) p { 
+    margin-top: 24px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.section-1 .container main section:nth-child(2) {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
