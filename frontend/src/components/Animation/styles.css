@@ -1,4 +1,4 @@
-.bg-anima {
+.bg-animation {
     background-image: linear-gradient(to right, #1c83f6, #0F23DA);
     height: 100vh;
     width: 100%;
@@ -6,15 +6,12 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    /* camada */
     z-index: 9999;
-
-    animation: fundo 1s forwards;
+    animation: background-animation 1s forwards;
     animation-delay: 1s;
 }
 
-@keyframes fundo {
-
+@keyframes background-animation {
     0% {
         opacity: 100%;
     }
@@ -22,36 +19,29 @@
     100% {
         opacity: 0;
     }
-
 }
 
-.anima h2 {
+.animation h2 {
     color: white;
     font-size: 64px;
-
-    /* animation-name: texto;
-    animation-duration: 2s; */
-    animation: texto 2s forwards;
+    animation: text-animation 2s forwards;
 }
 
-@keyframes texto {
-    /* inicial*/
-    0%{
+@keyframes text-animation {
+    0% {
         opacity: 100%;
         letter-spacing: 0;
         margin-bottom: 0;
     }
-    /* meio */
+
     50% {
         opacity: 100%;
         letter-spacing: 20px;
         margin-bottom: 20px;
     }
-    /* final */
     100% {
         letter-spacing: 0;
         margin-bottom: 0;
         opacity: 0;
     }
-
 }
