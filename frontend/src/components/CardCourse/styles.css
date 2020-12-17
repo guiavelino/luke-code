@@ -1,0 +1,8 @@
+.section-2 .container .card-container article img {
+    border-radius: 4px;
+}
+
+.section-2 .container .card-container article h4 {
+    margin-top: 8px;
+    text-align: center;
+}

@@ -81,3 +81,122 @@
     align-items: flex-end;
     justify-content: flex-end;
 }
+
+.section-2 {
+    width: 100%;
+    height: 80vh;
+    background-color: #fcfcfc;
+}
+
+.section-2 .container {
+    max-width: 1264px;
+    height: 80vh;
+    margin: 0 auto;
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-2 .container h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #3A3A3A;
+    margin-top: 64px;
+}
+
+.section-2 .container p {
+    font-size: 18px;
+}
+
+.section-2 .container .card-container {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.section-2 .container button {
+    width: 320px;
+    height: 48px;
+    border-radius: 32px;
+    border: 0;
+    font-weight: bold;
+    outline: 0;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(89, 254, 155, 0.9);
+    margin-bottom: 64px;
+}
+
+.section-3 {
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(to right, #1c83f6, #0F23DA);
+    opacity: 90%;
+}
+
+.section-3 .container {
+    max-width: 1264px;
+    height: 80vh;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.section-3 .container h2 {
+    font-size: 40px;
+    color: #fcfcfc;
+    height: 28vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-3 .container .categories-container {
+    height: 52vh;
+}
+
+.section-3 .container .categories-container .category-card {
+    width: 340px;
+    height: 100px;
+    border-radius: 4px;
+    background-color: #fcfcfc;
+    display: flex;
+}
+
+.section-3 .container .categories-container .category-card .category-card-image {
+    width: 92px;
+    height: 100px;
+    border-radius: 4px 0px 0px 4px;
+    background-color: red;
+}
+
+.section-3 .container .categories-container .category-card .category-card-content {
+    width: 248px;
+    padding: 16px;
+}
+
+.section-3 .container .categories-container .category-card .category-card-content p {
+    margin-top: 32px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #494949;
+}
+
+
+
+
+
+
+/* ::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #20B2AA;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #BDBDBD;
+} */
