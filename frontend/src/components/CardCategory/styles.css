@@ -1,0 +1,25 @@
+.section-3 .container .categories-container .category-card {
+    width: 340px;
+    height: 100px;
+    border-radius: 4px;
+    background-color: #fcfcfc;
+    display: flex;
+}
+
+.section-3 .container .categories-container .category-card .category-card-image {
+    width: 92px;
+    height: 100px;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.section-3 .container .categories-container .category-card .category-card-content {
+    width: 248px;
+    padding: 16px;
+}
+
+.section-3 .container .categories-container .category-card .category-card-content p {
+    margin-top: 32px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #494949;
+}
