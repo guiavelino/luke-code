@@ -7,7 +7,7 @@
 }
 
 html {
-    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Maven Pro', sans-serif !important;
 }
 
 a {
